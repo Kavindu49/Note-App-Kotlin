@@ -13,8 +13,9 @@
         android:theme="@style/Theme.NotesSQLites"
         tools:targetApi="31">
         <activity
-            android:name=".HomePage"
+            android:name=".MainActivity"
             android:exported="false" />
+
         <activity
             android:name=".UpdateNoteActivity"
             android:exported="false" />
@@ -22,7 +23,7 @@
             android:name=".AddNoteActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".HomePage1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
